@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be better</title>
+    <link rel="shortcut icon" type="imagex/png" href="imagens/Identidade.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+</head>
+
+<header id="myHeader">
+  <nav class="navbar">
+    
+      <ul class="menu-esquerda">
+        <img src="imagens/Identidade_Visual-removebg-preview.png" height="80px" class="center"> 
+        <li class="title">Be Better</li>
+          <li><a href="index.html">Menu Inicial</a></li>
+          <li><a href="diario_pessoal.html">Diário Pessoal</a></li>
+      </ul>
+	  <ul class="menu-direita">
+	  	<li type="button" id="logout" style="display: none;" class="btn btn-danger">Logout</li>
+	  	<li id="logged1"><a href="login.html">Cadastro</a></li>
+	  	<li id="logged2"><a href="login.html#paralogin"><i class="fas fa-user"></i>Login</a> <img class="icon">
+	  		<button type="button" id="logout" style="display: none;" class="btn btn-danger">Logout</button>
+	  	</li>
+
+        <!--Barra Lateral-->
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"> <img src="imagens/hamburguer.png" width="20px"></button>
+
+
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="hamburguer">
+          <div class="offcanvas-body d-flex flex-column justify-content-end">
+            <nav class="navbar bg-body-tertiary">
+
+              <div class="container-fluid ">
+                <a href="mandamentos.html" class="badge-button"><span class="badge rounded-pill text-bg-warning badge-button">𝑴𝒂𝒏𝒅𝒂𝒎𝒆𝒏𝒕𝒐𝒔</span></a>
+                <a href="diario_pessoal.html"class="badge-button"> <span class="badge rounded-pill text-bg-warning badge-button">𝑫𝒊𝒂́𝒓𝒊𝒐</span></a>
+                <a href="pix.html"class="badge-button"><span class="badge rounded-pill text-bg-warning badge-button">𝑫𝒐𝒏𝒂𝒕𝒆𝒔</span></a>
+              </div>
+
+            </nav>
+            
+          </div>
+
+          </div>
+          
+        </div>  
+</nav>
+
+  </div>
+</div>
+            
+      </ul>
+  </nav>
+</header>
+
+<main>
+  <script src="javascript.js"></script>
+
+</main>
+
+<body>
+  
+    <section id="menu-inicial">
+
+      <div class="note-container">
+        <h2 class="fw-semibold fst-italic">Diário Pessoal</h2>
+        <label for="date">Data:</label>
+        <input type="date" id="date" required>
+    
+        <label for="note">Anotação:</label>
+        <textarea id="note" rows="8" maxlength="500" cols="50" placeholder="Escreva sua anotação aqui..."></textarea>
+        <div class="slider-container">
+          <input type="range" min="0" max="4" value="0" class="slider" id="myRange">
+          <div class="slider-labels">
+              <span><img src="imagens/emojos/Crying.png" class="icon"> </span>
+              <span><img src="imagens/emojos/Sad.png" class="icon"></span>
+              <span><img src="imagens/emojos/Neutral.png" class="icon"></span>
+              <span><img src="imagens/emojos/Happy.png" class="icon"></span>
+              <span><img src="imagens/emojos/Smiling.png" class="icon"></span>
+          </div>
+
+        <div style="display: flex; justify-content: space-between;">
+          <button class="save-btn" onclick="saveNote()">Salvar</button>
+          <button class="cancel-btn" onclick="cancelNote()">Cancelar</button>
+        </div>
+
+      </div>
+      </div>
+
+
+	  <style>
+	    .rotate {  
+	      animation-name: ani-rotate;
+	      animation-duration: 30s;
+	      animation-timing-function: linear;
+	      animation-delay: 0s;
+	      animation-iteration-count: infinite;
+	      animation-direction: normal;
+	      animation-fill-mode: none;
+	    }
+	   
+	    @keyframes ani-rotate {
+	      0%{ transform: rotate(0); }
+	      100%{ transform: rotate(360deg); }  
+	    }
+	  </style>
+<a href="historico.html">
+	  <svg xmlns="http://www.w3.org/2000/svg" width="100" height="200" 
+	    viewBox="-25 -25 250 250" class="rotate"> 
+	    <defs>
+	     <linearGradient id="lgrad" x1="0%" y1="50%" x2="100%" y2="50%" >
+	       <stop offset="0%" style="stop-color:#00FF84;stop-opacity:1.00" />
+	       <stop offset="100%" style="stop-color:#008EE6;stop-opacity:1.00" />
+	     </linearGradient>
+	    </defs>
+	    <path d="M193.34288722549434 64.12374874086413 C189.02390669144407 52.98860989900038 174.93617546032604 32.8929234577497 166.0477443056614 24.9154112208506 C157.8827506246558 17.587195940672334 138.13675320299475 6.707664133779597 127.53958521035963 3.866908681550555 C115.33826668126997 0.5961327383944477 89.37940911431004 0.03983207204742145 77.02521403054088 2.6749815840883286 C66.73235305246183 4.870448581329136 46.48847387315438 13.351656522097901 39.007418973251596 20.754147996910717 C23.216763717183497 36.37897530786539 3.362788443539412 78.63430094282946 0.00175812986825008 100.59297797820045 C-1.0894846406401875 107.72241310031484 1.3852890377411273 122.53312251972923 4.332541572312991 129.11593031291937 C12.209695933949789 146.70987331973296 37.36376661046569 177.95880136968697 53.48721387166568 188.52435103732662 C61.92585615680369 194.05411726825076 82.17690430718962 199.56435643689463 92.26504038187852 199.70040320733926 C108.51584152153553 199.91955855931113 140.86524630481756 191.05718063491858 155.1943329576896 183.38816228551687 C161.54235680130486 179.99065953335315 172.4822828477948 170.05578489485748 176.67088203959491 164.19950036620628 C185.18191062688888 152.29981678314735 197.51131170067111 124.80072202476636 199.4679242081615 110.30204124042636 C201.02540330254445 98.76097619494874 197.5542054233946 74.98131396283813 193.34288722549434 64.12374874086413Z" stroke="none" fill="url(#lgrad)"  />
+	  </svg>
+      <img class="bola" src="imagens/history_117628.png" height="50px"></img>
+	  </a>
+
+      
+    </section> 
+    <br> <p class="text-dark-50 center" >&copy; 2024 Pedro Flutter Corporation</p	>
+    <div class="footer">
+
+      <div class="card">
+      <div class="card-body">
+
+        <p><strong>Pedro Flutter Corporation</strong><br>
+          Senai SP,<br>
+          Toledo, Skol - 423.176.888-90<br>
+          <strong>P:</strong> (15) 98826-5664<br>
+          <a href="mailto:first.last@example.com">pedrohenriqueflutter@gmail.com</a>
+        </p>
+        <a href="pix.html" class="btn btn-primary">Doe para nossa instituição 😜</a>
+        <a href="https://www.linkedin.com/in/pedro-henrique-35824326b/" target="_blank">
+          <img src="imagens/linkedin.png" class="float-end margin" alt="Pedro Cílios" width="50px"
+            height="50px">
+        </a>
+        <a href="https://github.com/Pedro-Flutter-Corporation" target="_blank">
+          <img src="imagens/25231.png" class="float-end margin" alt="Pedro Cílios" width="50px" height="50px">
+        </a>
+      </div>
+
+
+
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
