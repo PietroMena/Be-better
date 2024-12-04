@@ -34,6 +34,7 @@ window.onscroll = function() {
 function saveNote() {
 	const date = document.getElementById('date').value;
 	const note = document.getElementById('note').value;
+	const userId = 1;
 
 	if (!date || !note) {
 		alert('Por favor, preencha a data e a anotação!');
@@ -42,7 +43,8 @@ function saveNote() {
 
 	const noteData = {
 		data_postagem: date,
-		conteudo: note
+		conteudo: note,
+		usuario: { id: userId }
 	};
 
 	// Salva a anotação no localStorage (apenas para armazenamento local no navegador)
@@ -172,7 +174,7 @@ document.getElementById("cadastro-form").addEventListener("submit", function(eve
 	};
 
 	// Envia os dados do cadastro para o backend via AJAX
-	fetch('/usuario/cadastrar', {
+	fetch('index/cadastrar', {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json'
