@@ -8,7 +8,7 @@ Ilustre com imagens, vídeos e gifs animados do projeto em funcionamento. Você 
 
 ## 🚀 Começando
 
-Instrua os visitantes para que obtenham uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e testes.
+Baixe o nosso site, e aproveite o, se apodere de códigos caso precise um guia.(não aceitamos plágio).
 
 ### 📋 Pré-requisitos
 
@@ -20,64 +20,26 @@ Dê exemplos (navegador, framework, biblioteca necessária, tecnologias, etc.)
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter a aplicação em execução e funcional.
+É preciso do VsCode para abrir os códigos HTML, CSS e JS, o banco de dados foi feito MySql e Spring.
 
-Diga como essa etapa será:
 
-```
-Dê exemplos.
-```
-
-E repita:
-
-```
-Até finalizar...
-```
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-<!-- Note que você pode colocar trechos de código e comandos para cópia aos visitantes. -->
 
 ## ⚙️ Executando os testes
 
-Explicar como executar testes com a sua aplicação.
+Use nossa aplicação para realizar testes e usar de modelo.
 
-### 🔩 Analise os testes de ponta a ponta
-
-Explique testes realizados dando exemplos.
-
-```
-Dê exemplos aqui.
-```
-
-### ⌨️ Testes de codificação (HTML e CSS segundo a W3C, por exemplo)
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dê exemplos.
-```
 
 ## 📦 Implantação
 
-Adicione notas adicionais sobre como implantar isso em um sistema já existente.
+Não acredito que seja possivel usar nossa aplicação diretamente.
 
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto. Esta seção deve listar todos os principais framworks/bibliotecas usadas para inicializar seu projeto. Aqui estão alguns exemplos:
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+* HTML5
+* CSS3
+* JavaScript
 
 ## 📌 Versão
 
